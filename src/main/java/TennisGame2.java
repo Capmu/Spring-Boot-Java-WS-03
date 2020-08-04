@@ -25,7 +25,7 @@ public class TennisGame2
                     score = "Thirty";
                 score += "-All";
             }
-            if (player1Point == player2Point && player1Point >= 3)
+            if (player1Point >= 3)
                 score = "Deuce";
         }
 
